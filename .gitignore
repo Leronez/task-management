@@ -1,0 +1,51 @@
+# Build output
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+.vs/
+*.userprefs
+*.DS_Store
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# EF Core migrations bundle (generated binary)
+efbundle
+
+# Runtime data / local DB
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Docker local data
+tempo-data/
+
+# Environment / secrets
+.env
+.env.local
+appsettings.*.local.json
+
+# Test results
+TestResults/
+coverage/
+*.trx
+*.coveragexml
